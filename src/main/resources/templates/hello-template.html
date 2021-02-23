@@ -1,0 +1,6 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<p th:text="'hello ' + ${name}">hello! empty</p>    <!-- 실제 서버가 동작하면 hello empty값이 아닌 text= "" 값이 오고
+그먕 껍데기만 보고 싶을때에는 즉, 서버가 구동되지 않았을때에는 hello empty가 보여진다. => 이게 타임리프의 장점!!-->
+</body>
+</html>
